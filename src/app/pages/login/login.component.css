@@ -1,0 +1,40 @@
+:root {
+  --primary-color: blue;
+  --secondary-color: green;
+  --font-size: 16px;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 50vw;
+  min-height: 50vh;
+  border: 2px solid black;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, alpha);
+  backdrop-filter: blur(5px);
+  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+}
+.header {
+  text-decoration: underline;
+  text-align: start;
+  padding-top: 10px;
+}
+
+.form {
+  align-self: center;
+  padding: 20px;
+}
+
+.form-element {
+  padding: 10px;
+}
+
+.button {
+  justify-self: center;
+}

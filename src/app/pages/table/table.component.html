@@ -1,0 +1,107 @@
+<link
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+  rel="stylesheet"
+/>
+
+<style>
+  .table-column-gaps {
+    border-collapse: separate;
+    border-spacing: 2px 2px;
+  }
+  .table-column-gaps td,
+  .table-column-gaps th {
+    background-color: white; /* Needed for separate borders */
+    /* background-clip: padding-box; */
+  }
+</style>
+
+<div class="table-responsive">
+  <table class="table table-striped table-column-gaps">
+    <thead class="table-light">
+      <tr>
+        <th>Indicators</th>
+        <th></th>
+        <th>Patient Count</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="align-middle">
+          Number of patients listed at high risk of missing appointment
+        </td>
+        <td></td>
+        <td>56</td>
+      </tr>
+      <tr>
+        <td>Number of patients whom a contact attempt was made</td>
+        <td></td>
+        <td>37</td>
+      </tr>
+      <tr>
+        <td rowspan="2">
+          Number and type of contact attempts for patients listed as at high
+          risk of missing appointment
+        </td>
+        <td>Number of phone contact attempts</td>
+        <td>37</td>
+      </tr>
+      <tr>
+        <td>Number of home visit attemts</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td rowspan="3">Contact attempts outcome</td>
+        <td>Number of successful contact attempts</td>
+        <td>24</td>
+      </tr>
+      <tr>
+        <td>Number of unsuccessful contact attempts</td>
+        <td>13</td>
+      </tr>
+      <tr>
+        <td>Number of patients with NO contact attempt</td>
+        <td>19</td>
+      </tr>
+      <tr>
+        <td rowspan="5">Bi-weekly patient appointment outcome</td>
+        <td>Number of patients successfully contacted and kept appointment</td>
+        <td>13</td>
+      </tr>
+      <tr>
+        <td>
+          Number of patients successfully contacted but missed appointment
+        </td>
+        <td>8</td>
+      </tr>
+      <tr>
+        <td>
+          Number of patients successfully contacted and wish to reschedule
+        </td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>
+          Number of patients unsuccessfully contacted but kept appointment
+        </td>
+        <td>6</td>
+      </tr>
+      <tr>
+        <td>Number of patients with no contact attempt but kept appointment</td>
+        <td>8</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<div>
+  <p-tabView>
+    <p-tabPanel header="TAB ONE">
+      <p>Lorem ipsum dolor sit amet...</p>
+    </p-tabPanel>
+    <p-tabPanel header="TAB TWO">
+      <p>Lorem ipsum dolor sit amet...</p>
+    </p-tabPanel>
+    <p-tabPanel header="TAB THREE">
+      <p>Lorem ipsum dolor sit amet...</p>
+    </p-tabPanel>
+  </p-tabView>
+</div>
