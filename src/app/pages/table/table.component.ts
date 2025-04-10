@@ -5,7 +5,7 @@ import { TabViewModule } from 'primeng/tabview';
 @Component({
   selector: 'app-table',
   standalone: true,
-  imports: [NgIf, NgFor, TabViewModule],
+  imports: [TabViewModule],
   templateUrl: './table.component.html',
   styleUrl: './table.component.css',
 })

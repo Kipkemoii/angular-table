@@ -1,0 +1,16 @@
+::ng-deep .custom-grid .ag-header-cell {
+  background-color: #3f51b5;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+::ng-deep .custom-grid .ag-cell {
+  border-bottom: 1px solid #e0e0e0;
+  padding: 8px;
+}
+
+::ng-deep .custom-grid .ag-row-span {
+  background-color: #e8eaf6 !important;
+  vertical-align: middle;
+}
